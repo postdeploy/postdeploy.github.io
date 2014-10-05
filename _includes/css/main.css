@@ -103,6 +103,14 @@ header .intro-text .name {
     font-weight: 700;
 }
 
+.part1 {
+    color: #2a3d6c;
+}
+
+.part2 {
+    color: #000;
+}
+
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
@@ -110,7 +118,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 150px;
         padding-bottom: 100px;
     }
 
@@ -258,6 +266,11 @@ section.success {
     color: #fff;
     background: 0 0;
     transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #{{ site.color.secondary }};
+    border: solid 1px #{{ site.color.secondary }};
 }
 
 .btn-outline:hover,
@@ -442,4 +455,11 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+.subtitle {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 1.5em;
+    color: #777
 }

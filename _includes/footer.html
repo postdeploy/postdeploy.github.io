@@ -3,16 +3,7 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>
-                            {% for adress in site.address %}
-                                {{ adress.line }} <br>
-		                    {% endfor %}
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                    <div class="footer-col col-md-12">
                         <ul class="list-inline">
                             {% for network in site.social %}
                             <li>
@@ -20,10 +11,6 @@
                             </li>
 		                    {% endfor %}
                         </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Credits</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
